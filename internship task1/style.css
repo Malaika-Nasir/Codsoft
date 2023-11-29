@@ -1,0 +1,496 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width:100%;
+    height:100%;
+
+}
+
+/* navigation bars section*/
+
+a{
+    text-decoration: none;
+}
+.nav1{
+      width: 100%;
+      height: 50px;
+     background-color: black;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.nav1 a{
+    padding-left: 20px;
+    color:white;
+    height: 40px;
+    width: 45px;
+    
+}
+
+.nav1 > div{
+      
+     margin-left: 120px;
+     margin-right: 120px;
+    
+}
+
+.center ul li{
+    display: inline;
+    padding-left: 40px;
+    justify-content: space-between;
+    font: 300;
+}
+.center span{
+    padding-left:5px ;
+}
+ .right .btn
+{
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    background-color: orangered;
+    border: 2px solid orangered;
+    color: black;
+    font-size: 15px;
+    border-radius: 20px;
+    padding:0px  10px;
+     letter-spacing: -0.4px;
+     font-weight: 800;
+    
+}
+
+
+.nav2 {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color:white;
+    color: black;
+}
+.nav2 .p2 a{
+    padding: 0px 10px;
+    color: black;
+    display: block;
+}
+
+.end{
+    margin-right: 140px;
+    
+}
+
+.end a{
+    height: 90px;
+    width: 45px;
+    padding: 15px 18px;
+    background-color:black ;
+    border-radius: 90px;
+    color:white;
+}
+.p1{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    justify-content: space-around;
+}
+.p1 span{
+    padding-left: 30px;
+}
+.p1 img{
+    height:60px ;
+    width: 60px;
+    padding-left: 10px;
+}
+
+.p2 li {
+    display: inline-block;
+    font-size: 16px;
+    text-transform:none;
+    font-weight: 580;
+    letter-spacing: -0.3px;
+
+}
+.p2 li:nth-child(7):hover{
+    padding: 12px 0px;
+    font-size:20px ;
+    font-weight: 600;
+    
+} 
+
+.p2 li :hover{
+    font-size:20px ;
+    font-weight: 600;
+    border-bottom:3px solid orangered ;
+}
+.p2 li:nth-child(7){
+    padding: 12px 0px;
+    background-color:orangered;
+    border-radius: 60px;
+}
+
+
+.nav2 h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* main body section*/
+
+.main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.section{
+    width: 100%;
+    height: 70%;
+    background-image: url("im.jpg");
+    background-size:cover;
+    background-position:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    font-weight: 1200;
+    margin-top: 20px;
+    margin-right:20px ;
+}
+.content h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.content{
+    
+    color: black;
+   
+    padding: 30px 15px;
+    width: 60%;
+    height: 60%;
+    margin-left: 130px;
+
+}
+
+.content .btn1{
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+    width: 110px;
+    height: 40px;
+    background-color: orangered;
+     border: 2px solid orangered;
+   
+    color: black;
+    font-size: 15px;
+    border-radius: 20px;
+     letter-spacing: -0.4px;
+     font-weight: 800;
+     cursor: pointer;
+}
+
+.content .btn1:hover{
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 850;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 40px;
+}
+.options{
+height: 250px;
+width: 100%;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:black;
+color: white;
+margin-top: 10px;
+
+}
+.part1{
+    margin-top: 25px;
+    margin-left: 90px;
+    display: inline;
+   
+    height: 220px;
+    width: 420px;
+}
+.part2{
+    height: 220px;
+    width: 420px;
+    display: inline;
+    margin-top: 25px;
+    margin-left: 90px;
+   
+}
+.part3{
+    height: 220px;
+    width: 420px;
+    display: inline;
+    margin-top: 25px;
+    margin-left: 90px;
+    margin-right:50px ;
+   
+}
+
+.options button{
+      width: 50px;
+      height: 50px;
+      margin: 10px 0px;
+      border-radius: 90px;
+      border: 2px solid orangered;
+      background-color: orangered;
+}
+.options button a {
+    color: white;
+    font-weight: 400;
+}
+ .options h3{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: inline;
+}
+.set p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:90px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+/*about section code*/
+
+.about{
+    
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.leftt{
+   
+    margin-left: 30px;
+    padding:120px 60px ;
+    height: 100%;
+    width: 60%;
+    color: black;
+}
+.leftt h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+.leftt h3{
+      margin-top: 35px;
+      margin-bottom: 20px;
+      font-size: 25px;
+}
+.leftt p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+  line-height: 26px;
+
+}
+
+.btnn{
+    border-radius: 90px;
+    border: 2px solid orangered;
+    background-color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 0px;
+    color:black;
+    font-weight: 800;
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.btnn:hover{
+    width: 145px;
+    font-weight: 800;
+    height: 55px;
+}
+.rightt{
+     margin-top: 30px;
+    height: 100%;
+    width: 40%;    
+}
+
+.image{
+    width: 70%;
+    height: 100%;
+    
+}
+.image img{
+       margin-left: 80px;
+      width: 400px;
+      height: 550px;
+}
+
+.services{
+    margin-top:80px ;
+    margin-bottom: 20px;
+   
+}
+
+ .services h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:0px 90px ;
+    font-size: 45px;
+    font-weight: 800;
+}
+.boxes{
+    width: 100%;
+    height: 330px;
+    position: absolute;
+    display: flex;
+    color: white;
+    
+}
+
+.design{
+    margin-left: 90px;
+    display: inline;
+    height: 270px;
+    width: 440px;
+    background-image: url(app.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.ux{
+    
+     height: 270px;
+    width: 440px;
+    display: inline;
+    background-image: url(ui.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 90px;
+}
+.web{
+    
+    height: 270px;
+    width: 440px;
+    display: inline;
+    margin-left: 90px;
+    margin-right:50px ;
+  
+    background-image: url(web.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.headings{
+width: 100%;
+height: 60px;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+.head{
+    margin: 275px 0px;
+    height: 50px;
+    width: 220px;
+    font-size: 18PX;
+    font-weight: 800;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-color: orangered;
+    cursor: pointer;
+}
+.head:hover{
+    width: 440px;
+    border-radius: 20px;
+    font-size: 19spx;
+}
+
+.footer{
+    margin-top: 380px;
+    width: 100%;
+    height: 230px;
+ 
+position: absolute;
+display: flex;
+background-color:black;
+color: white;
+}
+
+.email{
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-top: 60px;
+    display: inline;
+    height: 220px;
+    width: 420px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.email span{
+    margin-left: 70px;
+}
+
+.phone{
+    margin-top: 20px;
+    margin-left: 90px;
+    padding-top: 60px;
+
+    height: 220px;
+    width: 420px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.phone span{
+    margin-left: 120px;
+}
+.copyright{
+    margin-top: 90px;
+    width: 100%;
+    height: 30px;
+    padding-left: 50px;
+}
+.address ul li{
+    list-style: none;
+    padding-left: 110px;
+    padding-top: 0px;
+}
+.address{
+    margin-top: 0px;
+    margin-left: 90px;
+    padding-top: 60px;
+    height: 220px;
+    width: 420px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
